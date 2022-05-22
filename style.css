@@ -52,7 +52,6 @@ body{
 .left-side p, span{
     color: white;
     margin-bottom: 60px;
-
 }
 
 .left-side span{
@@ -72,7 +71,7 @@ body{
 
 .right-side{
     width: 100%;
-    background-color: #fff;
+   
     display: flex;
     justify-content: center;
     align-items: center;
