@@ -6,19 +6,25 @@
 }
 
 body{
-    background-color: #202026;
+    background-color: rgb(161, 199, 214);
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+    padding: 10px 1%;
     height: 80px;
+    background-color: rgb(238, 86, 30);
+}
+
+.textoBarra{
+    color: #fff;
+    margin-right: 10px;
 }
 
 .logo img{
-    width: 77px;
+    width: 60px;
 }
 
 .menu-items a{
@@ -77,6 +83,6 @@ body{
     align-items: center;
 }
 
-.right-side img{
+.right-side image{
     background-color: #fff;
 }

@@ -1,0 +1,85 @@
+<section>
+    <div class="swiper mySwiper  container">
+        <div class="swiper-wrapper content">
+
+            <div class="swiper-slide card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="tenis.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="tenis.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="IMG/03.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="IMG/04.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(" .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: "swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+    }
+    )
+
+</script>
+
+<main>
+    <div class="content">
+        <div class="left-side">
+            <h1>LOJA CAMINHOS DO SOL</h1>
+            <h1>VENHA CONFERIR</h1>
+            <h1>SÓ COISA BOA FML</h1>
+            <p>blablablablblablablablablablablabla.</p>
+            <span>R$434,90</span>
+            <a href="carrossel.html">ADICIONAR AO CARRINHO</a>
+        </div>
+        <div class="right-side">
+            <div class="img">
+                <img src="tenis.png" alt="">
+            </div>
+
+            
+        </div>
+    </div>
+</main>
